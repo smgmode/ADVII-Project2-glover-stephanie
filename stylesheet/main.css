@@ -1,0 +1,44 @@
+* {
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+html, body, article, figure {
+}
+
+header nav ul li {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.938em;;
+	font-weight: bold;
+}
+
+.hero-image-section {
+	background-image: url("../images/astronomy.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 200px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 6.250em;
+	color: white;
+	text-align: center;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.bc-hist {
+  background-color: beige;
+}
+
+.third-page {
+  background-color: pink;
+}
+
+.contact {
+  background-color: lightblue;
+}
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8em;
+}
