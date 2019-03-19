@@ -4,6 +4,16 @@
 	border: 0;
 }
 
+header {
+	background: #00000;
+	padding: 10px 0;
+	position: fixed;
+  font-size: 1.25em;
+  color: #fffff;
+	left: 0;
+	right: 0;
+}
+
 html, body, article, figure {
 }
 
@@ -20,10 +30,36 @@ header nav ul li {
 	background-size: cover;
 	padding: 200px 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 6.250em;
+	font-size: 3.250em;
 	color: white;
 	text-align: center;
   text-shadow: 1px 1px 1px grey;
+}
+
+.hero-image-section img {
+  height: 200px;
+  width: 350px;
+  box-shadow: white;
+  max-width: 100%;
+}
+
+.hero-image-section h1 {
+  color: #ff00a9
+}
+
+.second-page h2 {
+  color: #9933ff;
+  text-align: center;
+}
+
+.second-page p {
+  color: #00000;
+  text-align:center;
+}
+
+.second-page img {
+  box-shadow: beige;
+  max-width: 100%;
 }
 
 .bc-hist {
@@ -32,10 +68,25 @@ header nav ul li {
 
 .third-page {
   background-color: pink;
+	max-width: 100%;
+
+}
+
+.third-page p {
+  text-align: center;
+}
+
+.button {
+	display: flex;
 }
 
 .contact {
   background-color: lightblue;
+}
+
+.fourth-page img {
+  max-width: 100%;
+	margin: 5% 5% 5% 5%;
 }
 
 footer {
