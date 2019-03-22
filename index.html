@@ -11,6 +11,8 @@
 		<title>p2-glover-stephanie</title>
 
 		<link rel="stylesheet" href="stylesheet/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,6 +21,8 @@
 		<![endif]-->
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 	</head>
 			<body>
@@ -29,6 +33,7 @@
               <li><a href="#about">About</a></li>
               <li><a href="#blog">Blog</a></li>
               <li><a href="#contact">Contact</a></li>
+							<img scr=""
 			 			</ul>
 		 			</nav>
 	 			</header>
@@ -36,15 +41,22 @@
             <div class="container">
 						<section class="hero-image-section" id="home">
               <h1>Black Girls Code</h1>
-              <img src="images/BCG-Google-I.jpg" alt="bcg-google-space" title="bcg-google-space"/>
+
+              <img src="images/BGC-Google-Office.jpg" alt="bcg-google-office" title="bcg-google-office"/>
+							<div class="box">
                 <h2>Vision:Future</h2>
-                <p>
+							</div>
+                <div class="gray-box">
+									<p>
                   Black Girls Code Mission: to introduce programming and technology to a new generation
                   of coders, coders who will become builders of technological innovation and of their own futures.
                   </p>
-                  <p>
+							  </div>
+								<div class="white-box">
                 Email Mailing List
                 </p>
+							</div>
+							</div>
                 </div>
             </section>
 
@@ -101,14 +113,29 @@
 
            <section class="contact" id="bgc-contact">
             <div class="fourth-page">
+							<h2>Contact Us</h2>
              <img src="images/BCG-Google-III.jpg" alt="annie-easely" title="annie-easely"/>
-            </div>
+						 <p>
+							Questions? Let's Chat!
+						</p>
+							<div class="wrapper">
+								<h3>Come on and join the future!.<span class="auto-input"></span></h3>
+							</div>
            </section>
 
         </main>
 		  <footer>
 			 <p>&copy; 2018 Black Girls Code</p>
 		 </footer>
-		<script src="main.js"></script>
+		 <script src="main.js"></script>
+		<script src="typed.js"></script>
+		<script>
+			var typed = new Typed(".auto-input", {
+			strings: ["Believe the hype","Black Girls Code!"],
+			typeSpeed: 150,
+			backspeed: 100,
+			loop: true
+		});
+   </script>
 	</body>
 </html>

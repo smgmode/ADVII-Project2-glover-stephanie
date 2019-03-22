@@ -24,27 +24,57 @@ header nav ul li {
 	font-weight: bold;
 }
 
+.container {
+	display:inline-block;
+}
+
 .hero-image-section {
 	background-image: url("../images/astronomy.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	padding: 200px 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 3.250em;
+	font-size: 1.250em;
 	color: white;
 	text-align: center;
   text-shadow: 1px 1px 1px grey;
 }
 
 .hero-image-section img {
-  height: 200px;
-  width: 350px;
+  height: 700px;
+  width: 850px;
   box-shadow: white;
   max-width: 100%;
 }
 
 .hero-image-section h1 {
   color: #ff00a9
+}
+
+.hero-image-section h2, p {
+	font-size: 1em;
+}
+
+.box {
+	height: 100px;
+	width: 100%;
+	background-color: beige;
+	border-style: solid;
+}
+
+.box h2, p {
+	color: black;
+}
+
+.gray-box {
+	background-color: gray;
+	color: black;
+	opacity: 2;
+}
+
+.title {
+	padding-top: 2%;
+	position:absolute;
 }
 
 .second-page h2 {
@@ -85,11 +115,48 @@ header nav ul li {
 }
 
 .fourth-page img {
+	border: 6px dotted black;
   max-width: 100%;
 	margin: 5% 5% 5% 5%;
+}
+
+.wrapper {
+	display: inline-block;
+	margin:auto;
+	transform: translate(-50%,50%);
+	background-color: rgba(0,0,0,0.7);
+	border: 4px solid pink;
+	width:100%;
+	height:auto;
+	padding:5% 5% 5% 5%;
+	margin:2% 2% 10% 50%;
+	color:#fff;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper h1 {
+	display:inline;
+}
+
+.auto-input::after {
+	content: '_';
+	animation: blink 0.4s infinite;
+}
+
+.typed cursor
+{
+	   display: none;
 }
 
 footer {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.8em;
+	color: blue;
+}
+
+@keyframes blink {
+	0%{opacity:1;}
+	100%{opacity: 0;}
 }
