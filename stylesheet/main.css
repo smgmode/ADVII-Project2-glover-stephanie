@@ -34,7 +34,7 @@ header nav ul li {
 	background-size: cover;
 	padding: 200px 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.250em;
+	font-size: 2.250em;
 	color: white;
 	text-align: center;
   text-shadow: 1px 1px 1px grey;
@@ -43,7 +43,7 @@ header nav ul li {
 .hero-image-section img {
   height: 700px;
   width: 850px;
-  box-shadow: white;
+	border: 15px solid white;
   max-width: 100%;
 }
 
@@ -69,7 +69,10 @@ header nav ul li {
 .gray-box {
 	background-color: gray;
 	color: black;
-	opacity: 2;
+}
+
+.white-box {
+	background:-color: white;
 }
 
 .title {
@@ -106,8 +109,12 @@ header nav ul li {
   text-align: center;
 }
 
-.button {
-	display: flex;
+a.button {
+	border-style: solid;
+	border-color: #9933FF;
+	border-width: thick;
+	color: white;
+	font-size:.5em;
 }
 
 .contact {
