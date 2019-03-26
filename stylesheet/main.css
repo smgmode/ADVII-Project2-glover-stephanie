@@ -14,14 +14,21 @@ header {
 	right: 0;
 }
 
-html, body, article, figure {
-}
-
 header nav ul li {
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.938em;;
 	font-weight: bold;
+}
+
+.social-media{
+  display: inline;
+  margin: -2% 35% 0;
+  padding: 0 55%;
+}
+
+.social-media img {
+	height: 25px;
 }
 
 .container {
@@ -55,24 +62,35 @@ header nav ul li {
 	font-size: 1em;
 }
 
-.box {
-	height: 100px;
-	width: 100%;
-	background-color: beige;
-	border-style: solid;
-}
-
-.box h2, p {
-	color: black;
+.vision-future {
+	background-color: #F5F5DC;
+	border: 1px solid #000000;
+	color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .gray-box {
-	background-color: gray;
-	color: black;
+	background-color: #ffff;
+	color: #000;
+    opacity: .7;
+    padding: -10% 0 0 0;
+	margin:-19% 25% 20% 30%;
+	font-size: 0.5em;
 }
 
-.white-box {
-	background:-color: white;
+.email {
+	text-align: left;
+	margin: 0 25% 0 ;
+}
+
+.boxw {
+	height: 50px;
+  width: 25%;
+  background-color: #ffffff;
+  margin: -4% 70% 0;
 }
 
 .title {
@@ -80,19 +98,18 @@ header nav ul li {
 	position:absolute;
 }
 
+#kimage{
+	margin: 10%;
+}
+
+#bimage {
+	margin: 8% 11%;
+}
+
 .second-page h2 {
   color: #9933ff;
   text-align: center;
-}
-
-.second-page p {
-  color: #00000;
-  text-align:center;
-}
-
-.second-page img {
-  box-shadow: beige;
-  max-width: 100%;
+	font-size: 2.5em;
 }
 
 .bc-hist {
@@ -101,12 +118,29 @@ header nav ul li {
 
 .third-page {
   background-color: pink;
+	opacity: .9;
 	max-width: 100%;
+
 
 }
 
-.third-page p {
+.third-page h2,p {
   text-align: center;
+}
+
+.blog img {
+	max-width: 100%;
+	width: 30%;
+	margin: 2%;
+}
+
+.blog h2 {
+	font-size: 3em;
+	color: #9933FF;
+}
+
+.button {
+	margin: 45%;
 }
 
 a.button {
@@ -117,27 +151,42 @@ a.button {
 	font-size:.5em;
 }
 
-.contact {
-  background-color: lightblue;
+.fourth-page h2 {
+	text-align: center;
 }
 
 .fourth-page img {
 	border: 6px dotted black;
   max-width: 100%;
-	margin: 5% 5% 5% 5%;
+	margin: 5% 5% 5% 30%;
+	width: 60%;
+}
+
+.gif img {
+	max-width: 45%;
+	border: none;
+	display:
+}
+
+.contact p {
+	text-align: center;
+}
+
+.twilio {
+	text-align: right;
 }
 
 .wrapper {
 	display: inline-block;
 	margin:auto;
 	transform: translate(-50%,50%);
-	background-color: rgba(0,0,0,0.7);
-	border: 4px solid pink;
-	width:100%;
+	background-color: #F5F5DC;
+	border: 4px solid #ff00a9;
+	width:50%;
 	height:auto;
 	padding:5% 5% 5% 5%;
 	margin:2% 2% 10% 50%;
-	color:#fff;
+	color:#00000;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
@@ -159,8 +208,7 @@ a.button {
 
 footer {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.8em;
-	color: blue;
+	font-size: 0.8em;
 }
 
 @keyframes blink {
