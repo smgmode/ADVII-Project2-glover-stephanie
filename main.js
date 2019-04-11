@@ -1,3 +1,22 @@
+//Pop Up Ad Alert - when user leaves the page
+document.addEventListener("mouseleave",
+    function () {
+    alert("Are You Sure You Want To Leave? Join Us!");
+  }, false
+);
+
+//Sliding nav home bar
+var sliderTrigger = document.getElementsByClassName("slider-trigger")[0];
+var slider = document.getElementsByClassName('slider-parent')[0];
+sliderTrigger.addEventListener( "click" , function(el){
+if(slider.classList.contains("active")){
+  slider.classList.remove("active");
+ } else{
+  slider.classList.add("active");
+ }
+});
+
+
 //extra paragraph first button
 var first = document.getElementById ("firstbutton"),
     epara = document.getElementById ("extrapara");
